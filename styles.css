@@ -21,7 +21,7 @@ body {
 }
 
 .viewer {
-  height: 100dvh;
+  height: 90dvh;
   display: flex;
   flex-direction: column;
   padding: calc(env(safe-area-inset-top, 0px) + 8px)
