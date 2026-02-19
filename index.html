@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Pub Quiz Image Viewer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="viewer" aria-label="image viewer">
+    <header class="topbar">
+      <h1>Image Viewer</h1>
+      <p id="counter" aria-live="polite">1 / 15</p>
+    </header>
+
+    <section id="stage" class="stage" aria-label="Image stage">
+      <img id="slide" src="quiz_imgs/1.PNG" alt=" image 1" draggable="false" />
+    </section>
+
+    <footer class="controls">
+      <button id="prevBtn" type="button" aria-label="Previous image">◀</button>
+      <button id="resetZoomBtn" type="button" aria-label="Reset zoom">Reset Zoom</button>
+      <button id="nextBtn" type="button" aria-label="Next image">▶</button>
+    </footer>
+
+    <p class="hint">Swipe left/right to change image. Pinch to zoom. Drag while zoomed to pan.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
