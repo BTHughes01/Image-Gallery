@@ -1,8 +1,5 @@
-# Pub Quiz Satellite Viewer
+# Image Viewer
 
-Simple static image viewer for `quiz_imgs/Satellite1.PNG` to `quiz_imgs/Satellite15.PNG`.
-
-## Features
 - Swipe left/right on phone to move between images
 - Pinch to zoom on phone
 - Drag to pan while zoomed in
