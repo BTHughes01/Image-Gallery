@@ -1,19 +1,19 @@
 const images = [
-  'quiz_imgs/Satellite1.PNG',
-  'quiz_imgs/Satellite2.PNG',
-  'quiz_imgs/Satellite3.PNG',
-  'quiz_imgs/Satellite4.PNG',
-  'quiz_imgs/Satellite5.PNG',
-  'quiz_imgs/Satellite6.PNG',
-  'quiz_imgs/Satellite7.PNG',
-  'quiz_imgs/Satellite8.PNG',
-  'quiz_imgs/Satellite9.PNG',
-  'quiz_imgs/Satellite10.PNG',
-  'quiz_imgs/Satellite11.PNG',
-  'quiz_imgs/Satellite12.PNG',
-  'quiz_imgs/Satellite13.PNG',
-  'quiz_imgs/Satellite14.PNG',
-  'quiz_imgs/Satellite15.PNG'
+  'quiz_imgs/Img1.PNG',
+  'quiz_imgs/Img2.PNG',
+  'quiz_imgs/Img3.PNG',
+  'quiz_imgs/Img4.PNG',
+  'quiz_imgs/Img5.PNG',
+  'quiz_imgs/Img6.PNG',
+  'quiz_imgs/Img7.PNG',
+  'quiz_imgs/Img8.PNG',
+  'quiz_imgs/Img9.PNG',
+  'quiz_imgs/Img10.PNG',
+  'quiz_imgs/Img11.PNG',
+  'quiz_imgs/Img12.PNG',
+  'quiz_imgs/Img13.PNG',
+  'quiz_imgs/Img14.PNG',
+  'quiz_imgs/Img15.PNG'
 ];
 
 const slide = document.getElementById('slide');
@@ -53,7 +53,7 @@ function setImage(nextIndex) {
   const wrapped = (nextIndex + images.length) % images.length;
   index = wrapped;
   slide.src = images[index];
-  slide.alt = `Satellite image ${index + 1}`;
+  slide.alt = `Img image ${index + 1}`;
   counter.textContent = `${index + 1} / ${images.length}`;
   resetZoom();
 }
