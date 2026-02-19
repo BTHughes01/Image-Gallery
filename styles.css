@@ -33,10 +33,14 @@ body {
 }
 
 .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   padding: 0 4px;
+  background: #111;
 }
 
 .topbar h1 {
@@ -76,9 +80,14 @@ body {
 }
 
 .controls {
+  position: sticky;
+  bottom: 0;
+  z-index: 3;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   gap: 8px;
+  background: #111;
+  padding-top: 2px;
 }
 
 button {
